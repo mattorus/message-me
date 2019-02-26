@@ -91,4 +91,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.action_cable.allowed_request_origins = ['redis://h:p1e69903cc76b6d1762b37f662e0130597e41af8bab4aee5dc34d71f57940a1de@ec2-18-233-114-177.compute-1.amazonaws.com:24419']
 end
